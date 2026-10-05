@@ -16,9 +16,9 @@
 </p>
 
 <p align="center">
-  <a href="#install">Installa</a> ·
-  <a href="#getting-started">Per iniziare</a> ·
-  <a href="#the-method">Il metodo</a> ·
+  <a href="#installa">Installa</a> ·
+  <a href="#per-iniziare">Per iniziare</a> ·
+  <a href="#il-metodo">Il metodo</a> ·
   <a href="examples/session-30-min.md">Vedi una sessione</a> ·
   <a href="agora/SKILL.md">Leggi la skill</a>
   <br>
