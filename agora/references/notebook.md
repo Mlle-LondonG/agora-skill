@@ -6,6 +6,7 @@ File names and CSV headers stay in English; cell contents are written in the lea
 ```
 # ÁGORA — Profile and plan
 Start: YYYY-MM-DD | Current week: N | Day: D | Day off: … | Language: … | Scheduler: fsrs / leitner
+Attention mode: off / on (block __ min, best focus window: …)
 Profile: … | Anchor subject: … | Materials: (see sources.md)
 Observable goal (12 weeks): By the end I will be able to … and I will show it by …
 Time: … min/day, … days/week | Key dates: … | Discusses with: …
@@ -70,7 +71,7 @@ Diagnostics, essays, solutions, memos and projects, named `YYYY-MM-DD-topic.md`.
 ```
 python3 scripts/metrics.py path/sessions.csv [--days 7|28]
 ```
-Prints recall, calibration (with over/under-confidence), valid solutions per level, rubric means, sleep and energy, and the suggested adaptive rule. Report the results in the learner's language.
+Prints recall, calibration (with over/under-confidence), valid solutions per level, rubric means, sleep and energy, comebacks after a gap of 2+ days, and the suggested adaptive rule. Report the results in the learner's language.
 
 ## State block (no file access)
 At every close, give this block (translated) and ask the learner to paste it at the start of the next session:

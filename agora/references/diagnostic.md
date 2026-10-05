@@ -20,7 +20,7 @@ Run it in the learner's strongest language (see SKILL.md §2).
 
 **Metacognition:** before B3, B4, B5 and B7 the learner predicts their percentage score, later compared with the real one.
 
-**Formats:** full (85 min) · two parts (B0–B6 = 61 min; B7–B9 = 24 min) · three 30-minute days (day 1: B0–B3; day 2: B6 at 24 h + B4 + B7; day 3: B5 + B8 + B9). Record the format and recall delay in `profile.md`; the final diagnostic must repeat them for a valid comparison.
+**Formats:** full (85 min) · two parts (B0–B6 = 61 min; B7–B9 = 24 min) · three 30-minute days (day 1: B0–B3; day 2: B6 at 24 h + B4 + B7; day 3: B5 + B8 + B9). Record the format and recall delay in `profile.md`; the final diagnostic must repeat them for a valid comparison. In attention mode, always use the 3-day format with a break inside each day. B9 measures study habits in this test only: it is not an ADHD screen and must never be read as one.
 
 **Generating and running it:** Claude writes the items on the spot, in the learner's language, at medium-high difficulty for an adult. The B1 and B3 texts are about topics unrelated to the anchor subject, to measure skill rather than prior knowledge, and culturally neutral or local to the learner. Present one block at a time; reveal no answers until the block ends. Save the full form (items, answers, scores) in `work/YYYY-MM-DD-diagnostic.md`. For the final diagnostic, build a parallel form: same structure, different content.
 

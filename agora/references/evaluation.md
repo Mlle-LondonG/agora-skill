@@ -13,8 +13,8 @@ IQ is never measured. Ágora measures observable evidence of performance. Transl
 | Transfer | Rubric 0–4 on L4 problems | Weekly | ≥3 |
 | Calibration | \|prediction − result\| in percentage points; the sign shows over- or under-confidence | Every session | ≤10 |
 | Quality of own questions | Rubric 0–4; mean of the week's best 3 | Weekly | ≥3 |
-| Consistency | Sessions done / planned | Weekly | ≥80 % |
-| Bouncing back | Days to resume after a missed session; missed criterion → met | Monthly | ≤1 day; ≤2 weeks |
+| Consistency | Sessions done / planned (in attention mode, report comebacks and sessions done instead) | Weekly | ≥80 % |
+| Bouncing back | Days to resume after a missed session; missed criterion → met; comebacks (sessions after a gap of 2+ days) | Monthly | ≤1 day; ≤2 weeks |
 | Repeated errors | % of the week's errors already in the log | Weekly | Falling |
 | Long-term retention | Sample of 10 mature cards (stability ≥21 d or retired) | Monthly | ≥80 % |
 
