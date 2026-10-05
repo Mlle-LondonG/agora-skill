@@ -1,12 +1,22 @@
 # Changelog
 
+## 2.2.0 — 2026-10-05
+
+**Ready for Claude's plugin directory.**
+
+- The plugin is now called `agora-learning` (shown as "Ágora Learning") so it can't be confused with another listing. Install it with `/plugin install agora-learning@agora-skill`. If you installed 2.1.1 as a plugin, uninstall `agora@agora-skill` first.
+- The skill inside is still called `agora` and still starts when you say "Ágora".
+- Plugin icon added.
+- `agora.zip` is no longer stored in the repository: download it from the latest release.
+- The skill itself is unchanged from 2.1.0.
+
 ## 2.1.1 — 2026-10-04
 
 **One-command install.**
 
 - The repository is now a Claude Code plugin and marketplace (`.claude-plugin/`): `/plugin marketplace add Mlle-LondonG/agora-skill`, then `/plugin install agora@agora-skill`. Validated with `claude plugin validate --strict`.
 - Documented `npx skills add Mlle-LondonG/agora-skill` for any agent that supports skills.
-- Social preview image (`assets/social-preview.png`).
+- Social preview image for link sharing.
 - The skill itself is unchanged from 2.1.0.
 
 ## 2.1.0 — 2026-10-04

@@ -7,7 +7,7 @@
   <img alt="Claude skill" src="https://img.shields.io/badge/skill-Claude-1c2131?style=flat-square">
   <img alt="Works in any language" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20ES%20%C2%B7%20PT%20%C2%B7%20IT%20%C2%B7%20FR%20%C2%B7%20DE%20%C2%B7%20%E2%80%A6-8e98ad?style=flat-square">
   <img alt="Spaced repetition: FSRS" src="https://img.shields.io/badge/spaced%20repetition-FSRS--6-e3d4b0?style=flat-square">
-  <img alt="Version 2.1.1" src="https://img.shields.io/badge/version-2.1.1-c9a45c?style=flat-square">
+  <img alt="Version 2.2.0" src="https://img.shields.io/badge/version-2.2.0-c9a45c?style=flat-square">
 </p>
 
 <p align="center">
@@ -82,10 +82,10 @@ npx skills add Mlle-LondonG/agora-skill
 
 ```text
 /plugin marketplace add Mlle-LondonG/agora-skill
-/plugin install agora@agora-skill
+/plugin install agora-learning@agora-skill
 ```
 
-**Claude app (web or desktop).** Download [`agora.zip`](agora.zip) (or the one attached to the [latest release](../../releases/latest)) and upload it in the Skills section of your settings.
+**Claude app (web or desktop).** Download `agora.zip` from the [latest release](../../releases/latest) and upload it in the Skills section of your settings.
 
 **Claude Code, manually.** Copy the `agora/` folder into your personal skills or a project's:
 
@@ -216,7 +216,6 @@ agora-skill/
 │   └── scripts/
 │       ├── fsrs.py
 │       └── metrics.py
-├── agora.zip                   ← ready to upload to the Claude app
 ├── notebook-template/
 ├── examples/                   ← sessions in English, Spanish and Portuguese, plus attention mode
 ├── README.md · README.es.md · README.pt-BR.md
@@ -232,7 +231,7 @@ Every practice is labelled **solid evidence**, **moderate evidence** or **practi
 
 ## Related work
 
-Other open learning skills worth knowing, each with different strengths: [learning-opportunities](https://github.com/DrCatHicks/learning-opportunities) (evidence-based exercises during AI-assisted coding), [learn-anything](https://github.com/ChenChenyaqi/learn-anything) (technical topics with a dashboard), [Bloom](https://github.com/li-evan/bloom) (course generation from your documents), [claude-tutor](https://github.com/kirilxd/claude-tutor) (plans, quizzes and a web dashboard) [study-skill](https://github.com/mordor-forge/study-skill) (FSRS-6 for programming study) and [education-agent-skills](https://github.com/GarethManning/education-agent-skills) (a large, evidence-rated library of teaching and tutoring skills). Hosted study modes (ChatGPT Study Mode, Gemini Guided Learning, Claude's learning mode, NotebookLM) offer things a skill can't, such as built-in dashboards, visuals or voice. Spaced-repetition scheduling builds on the [open-spaced-repetition](https://github.com/open-spaced-repetition) project.
+Other open learning skills worth knowing, each with different strengths: [learning-opportunities](https://github.com/DrCatHicks/learning-opportunities) (evidence-based exercises during AI-assisted coding), [learn-anything](https://github.com/ChenChenyaqi/learn-anything) (technical topics with a dashboard), [Bloom](https://github.com/li-evan/bloom) (course generation from your documents), [claude-tutor](https://github.com/kirilxd/claude-tutor) (plans, quizzes and a web dashboard), [study-skill](https://github.com/mordor-forge/study-skill) (FSRS-6 for programming study) and [education-agent-skills](https://github.com/GarethManning/education-agent-skills) (a large, evidence-rated library of teaching and tutoring skills). Hosted study modes (ChatGPT Study Mode, Gemini Guided Learning, Claude's learning mode, NotebookLM) offer things a skill can't, such as built-in dashboards, visuals or voice. Spaced-repetition scheduling builds on the [open-spaced-repetition](https://github.com/open-spaced-repetition) project.
 
 ## Contributing
 

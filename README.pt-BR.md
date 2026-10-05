@@ -61,10 +61,10 @@ npx skills add Mlle-LondonG/agora-skill
 
 ```text
 /plugin marketplace add Mlle-LondonG/agora-skill
-/plugin install agora@agora-skill
+/plugin install agora-learning@agora-skill
 ```
 
-**App do Claude (web ou desktop).** Baixe o [`agora.zip`](agora.zip) (ou o anexado à [versão mais recente](../../releases/latest)) e envie na seção de Skills das configurações.
+**App do Claude (web ou desktop).** Baixe o `agora.zip` da [versão mais recente](../../releases/latest) e envie na seção de Skills das configurações.
 
 **Claude Code, manualmente.** Copie a pasta `agora/` para as suas skills pessoais ou para as de um projeto:
 
