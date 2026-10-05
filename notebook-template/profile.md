@@ -1,5 +1,6 @@
 # ÁGORA — Profile and plan
 Start: YYYY-MM-DD | Current week: 1 | Day: 1 | Day off: … | Language: … | Scheduler: fsrs
+Attention mode: off / on (block __ min, best focus window: …)
 Profile: … | Anchor subject: … | Materials: (see sources.md)
 Observable goal (12 weeks): By the end I will be able to … and I will show it by …
 Time: … min/day, … days/week | Key dates: … | Discusses with: …
