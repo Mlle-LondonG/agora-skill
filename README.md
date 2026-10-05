@@ -1,180 +1,223 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Ágora — aprendizaje profundo y razonamiento aplicado. Skill para Claude." width="100%">
+  <img src="assets/banner.svg" alt="Ágora — deep understanding and applied reasoning. A Claude skill for any language." width="100%">
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="Licencia MIT" src="https://img.shields.io/badge/licencia-MIT-c9a45c?style=flat-square"></a>
-  <img alt="Skill para Claude" src="https://img.shields.io/badge/skill-Claude-1c2131?style=flat-square">
-  <img alt="Idioma: español" src="https://img.shields.io/badge/idioma-espa%C3%B1ol-8e98ad?style=flat-square">
-  <img alt="Versión 1.0.0" src="https://img.shields.io/badge/versi%C3%B3n-1.0.0-e3d4b0?style=flat-square">
+  <a href="LICENSE"><img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-c9a45c?style=flat-square"></a>
+  <img alt="Claude skill" src="https://img.shields.io/badge/skill-Claude-1c2131?style=flat-square">
+  <img alt="Works in any language" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20ES%20%C2%B7%20PT%20%C2%B7%20IT%20%C2%B7%20FR%20%C2%B7%20DE%20%C2%B7%20%E2%80%A6-8e98ad?style=flat-square">
+  <img alt="Spaced repetition: FSRS" src="https://img.shields.io/badge/spaced%20repetition-FSRS--6-e3d4b0?style=flat-square">
+  <img alt="Version 2.0.0" src="https://img.shields.io/badge/version-2.0.0-c9a45c?style=flat-square">
 </p>
 
 <p align="center">
-  <b>Un sistema operativo de aprendizaje que convierte a Claude en tu diseñador de plan,<br>
-  director de sesión, tutor socrático y evaluador.</b>
+  <b>A learning operating system that turns Claude into your plan designer,<br>
+  session director, Socratic tutor and assessor — in your own language.</b>
 </p>
 
 <p align="center">
-  <a href="#instalación">Instalación</a> ·
-  <a href="#cómo-empezar">Cómo empezar</a> ·
-  <a href="#el-método">El método</a> ·
-  <a href="ejemplos/sesion-de-30-min.md">Ver una sesión</a> ·
-  <a href="agora/SKILL.md">Leer el skill</a>
+  <a href="#install">Install</a> ·
+  <a href="#getting-started">Getting started</a> ·
+  <a href="#the-method">The method</a> ·
+  <a href="examples/session-30-min.md">See a session</a> ·
+  <a href="agora/SKILL.md">Read the skill</a>
+  <br>
+  <b>English</b> · <a href="README.es.md">Español</a> · <a href="README.pt-BR.md">Português</a>
 </p>
 
 ---
 
-## Por qué existe
+## Why it exists
 
-Releer, subrayar y acumular horas *se siente* productivo, pero rinde poco. Las técnicas que mejor funcionan (recuperar sin mirar, espaciar los repasos, resolver antes de ver la solución, explicar y recibir crítica) son incómodas y difíciles de sostener sin alguien que te guíe.
+Rereading, highlighting and logging hours *feel* productive but pay off little. The techniques that work best (retrieving without looking, spacing reviews, attempting before seeing the solution, explaining and taking critique) are uncomfortable and hard to sustain without someone guiding you.
 
-Ágora es ese alguien. Toma las prácticas más transferibles de las universidades de referencia y las convierte en un ciclo diario, medible y adaptativo que funciona con cualquier materia.
+Ágora is that someone. It takes the most transferable practices of leading universities and turns them into a daily, measurable, adaptive loop that works for any subject and in any language.
 
-> **Ágora no promete subir el IQ ni lo mide.** Entrena y mide **rendimiento observable**: comprensión profunda, transferencia a problemas nuevos, claridad al explicar y calidad de lo que produces.
+> **Ágora does not promise to raise IQ, and it never measures it.** It trains and measures **observable performance**: deep understanding, transfer to new problems, clear explanations and the quality of what you produce.
 
-## Qué hace
+## What it does
 
-| Modo | Qué pasa |
+| Mode | What happens |
 |---|---|
-| **Inicio** | 6 preguntas (objetivo, materia, perfil, tiempo, energía, con quién discutes) y creación de tu cuaderno de progreso. |
-| **Diagnóstico** | Prueba de 85 min (también en 2 partes o en 3 días de 30 min): lectura, memoria, lógica, problemas, escritura, explicación, metacognición y atención. Asigna nivel: Fundamentos, Intermedio, Avanzado o Intensivo. |
-| **Plan de 12 semanas** | Cada semana entrena una habilidad cognitiva usando el temario de *tu* materia. |
-| **Sesión diaria** | Rutinas exactas de 30, 60, 120 o 180 min en 7 pasos. |
-| **Tutoría socrática** | No te da la respuesta: pide tu intento, cuestiona supuestos, plantea contraejemplos y sube la dificultad, con una escalera de pistas de P1 a P5. |
-| **Revisión** | Métricas semanales y mensuales, y reglas explícitas para subir o bajar la dificultad. |
-| **Proyectos** | Cuatro proyectos integradores: STEM, humanidades, negocios/decisión y diseño. |
-| **Manual** | Genera el sistema completo como documento. |
+| **Onboarding** | 6 questions (goal, subject, profile, time, energy, who you discuss with) and your progress notebook is created. |
+| **Diagnostic** | 85 minutes (or 2 parts, or three 30-minute days): reading, memory, logic, problems, writing, explaining, metacognition and attention. Assigns a level: Foundations, Intermediate, Advanced or Intensive. |
+| **12-week plan** | Each week trains one cognitive skill using *your* subject's syllabus. |
+| **Daily session** | Exact 30, 60, 120 or 180-minute routines in 7 steps. |
+| **Socratic tutoring** | Never hands you the answer: asks for your attempt, probes assumptions, raises counterexamples and difficulty, with a hint ladder from H1 to H5. |
+| **Your materials** | Reads your PDFs, notes and syllabus, maps them to the plan, and writes cards and problems that cite pages. Past exams are held out for the final test. |
+| **Spaced repetition** | FSRS-6 scheduling with a dependency-free script (falls back to Leitner boxes when Python isn't available). |
+| **Reviews** | Weekly and monthly metrics, with explicit rules for raising or lowering difficulty. |
+| **Projects** | Capstones in STEM, humanities, business/decisions, design and languages. |
+| **Manual** | Generates the whole system as a document, in your language. |
 
-Funciona para estudiantes de secundaria avanzada, universitarios, profesionales que aprenden una habilidad compleja y autodidactas sin profesor.
+It works for advanced secondary students, university students, professionals learning a complex skill, and self-taught learners without a teacher.
 
-## Instalación
+## Any language
 
-**App de Claude (web o escritorio).** Descarga [`agora.zip`](agora.zip) y súbelo en la sección de Skills de la configuración.
+The skill is written in English and **talks to each learner in their own language** (Spanish, Portuguese, Italian, French, German, English…): questions, feedback, rubrics, templates and the tutor prompt. File names stay in English so the scripts keep working.
 
-**Claude Code.** Copia la carpeta `agora/` en tus skills personales o en las de un proyecto:
+When the subject *is* a language, instructions come in your language and practice happens in the target language, with more immersion as your level rises (about 30 % → 60 % → 90 %).
+
+```text
+Ágora, 60-minute session
+Ágora, sesión de 60 minutos
+Ágora, sessão de 60 minutos
+Ágora, sessione di 60 minuti
+```
+
+## Install
+
+**Claude app (web or desktop).** Download [`agora.zip`](agora.zip) (or the one attached to the [latest release](../../releases/latest)) and upload it in the Skills section of your settings.
+
+**Claude Code.** Copy the `agora/` folder into your personal skills or a project's:
 
 ```bash
 git clone https://github.com/Mlle-LondonG/agora-skill.git
-cp -r agora-skill/agora ~/.claude/skills/          # para todos tus proyectos
-# o bien: cp -r agora-skill/agora .claude/skills/  # solo para este proyecto
+cp -r agora-skill/agora ~/.claude/skills/          # for all your projects
+# or: cp -r agora-skill/agora .claude/skills/      # for this project only
 ```
 
-**Otra IA.** La sección 10.3 de [`agora/SKILL.md`](agora/SKILL.md) trae un prompt de tutor socrático listo para copiar y pegar.
+**Another AI.** `agora/references/tutor.md` includes a ready-to-paste Socratic tutor prompt (ask Ágora for it and you get it translated).
 
-## Cómo empezar
+**Upgrading from 1.x.** Remove the old Spanish version first. Ágora migrates 1.x notebooks (`perfil.md`, `sesiones.csv`…) to the new format, keeping every row and a backup of the originals.
 
-Escribe **"Ágora"** en una conversación. La primera vez te hará las preguntas de inicio y te propondrá el diagnóstico. Después basta con:
+## Getting started
+
+Type **"Ágora"** in a conversation. The first time, it asks the onboarding questions and offers the diagnostic. After that:
 
 ```text
-Ágora, sesión de 60 minutos
-Ágora, tutoría sobre recursión
-Ágora, ¿cómo voy?
-Ágora, estoy atascada con las integrales
-Ágora, dame el manual completo
+Ágora, 60-minute session
+Ágora, tutor me on recursion
+Ágora, how am I doing?
+Ágora, I'm stuck on integrals
+Ágora, here are my lecture notes (attach PDFs)
+Ágora, give me the full manual
 ```
 
-## El método
+## The method
 
-### El ciclo de cada sesión
+### Every session
 
 ```mermaid
 flowchart LR
-    A["1 · Definir<br/>el resultado"] --> B["2 · Recuperar<br/>sin mirar"]
-    B --> C["3 · Estudiar con<br/>una pregunta guía"]
-    C --> D["4 · Resolver<br/>algo difícil"]
-    D --> E["5 · Explicar<br/>y defender"]
-    E --> F["6 · Corregir<br/>con evidencia"]
-    F --> G["7 · Registrar<br/>y espaciar"]
-    G -. "próxima sesión" .-> B
+    A["1 · Define<br/>the outcome"] --> B["2 · Retrieve<br/>without looking"]
+    B --> C["3 · Study with a<br/>guiding question"]
+    C --> D["4 · Solve something<br/>hard"]
+    D --> E["5 · Explain<br/>and defend"]
+    E --> F["6 · Correct against<br/>evidence"]
+    F --> G["7 · Log<br/>and space"]
+    G -. "next session" .-> B
 ```
 
-| Paso | 30 min | 60 min | 120 min | 180 min |
+| Step | 30 min | 60 min | 120 min | 180 min |
 |---|---|---|---|---|
-| 1. Definir | 1 | 2 | 3 | 5 |
-| 2. Recuperar | 5 | 10 | 15 | 20 |
-| 3. Estudiar | 7 | 15 | 30 | 45 |
-| Pausa | — | — | 5 | 10 |
-| 4. Resolver | 9 | 18 | 35 | 50 |
-| Pausa | — | — | — | 5 |
-| 5. Explicar | 4 | 7 | 15 | 20 |
-| 6. Corregir | 2 | 5 | 10 | 15 |
-| 7. Registrar | 2 | 3 | 7 | 10 |
+| 1. Define | 1 | 2 | 3 | 5 |
+| 2. Retrieve | 5 | 10 | 15 | 20 |
+| 3. Study | 7 | 15 | 30 | 45 |
+| Break | — | — | 5 | 10 |
+| 4. Solve | 9 | 18 | 35 | 50 |
+| Break | — | — | — | 5 |
+| 5. Explain | 4 | 7 | 15 | 20 |
+| 6. Correct | 2 | 5 | 10 | 15 |
+| 7. Log | 2 | 3 | 7 | 10 |
 
-### Las 12 semanas
+### The 12 weeks
 
-| Fase | Semanas | Competencias |
+| Phase | Weeks | Competencies |
 |---|---|---|
-| **I. Base del sistema** | 1–4 | Atención profunda · memoria y calibración · primer principio · lectura crítica |
-| **II. Razonamiento** | 5–8 | Lógica y causalidad · probabilidad y decisión · problemas cuantitativos · escritura y defensa oral |
-| **III. Transferencia y producción** | 9–12 | Creatividad e hipótesis · transferencia · proyecto integrador · defensa y diagnóstico final |
+| **I. System foundations** | 1–4 | Deep attention · memory and calibration · first principles · critical reading |
+| **II. Reasoning** | 5–8 | Logic and causation · probability and decisions · quantitative problems · writing and oral defence |
+| **III. Transfer and production** | 9–12 | Creativity and hypotheses · transfer · capstone project · defence and final diagnostic |
 
-### Dificultad adaptativa
+### Adaptive difficulty
 
-| Si la recuperación sin apuntes es… | Ágora… |
+| If recall without notes is… | Ágora… |
 |---|---|
-| menor que 60 % | no da contenido nuevo: recuperación, ejemplos resueltos y prerrequisitos |
-| 60–79 % | reduce el contenido nuevo a la mitad y duplica la recuperación |
-| 80–90 % | mantiene la dificultad y espacia los repasos |
-| mayor que 90 % dos veces **y** hay transferencia | sube la complejidad |
+| below 60 % | gives no new content: retrieval, worked examples and prerequisites |
+| 60–79 % | halves new content and doubles retrieval |
+| 80–90 % | keeps the difficulty and lets reviews space out |
+| above 90 % twice **and** you transfer | raises the complexity |
 
-Ante fallos repetidos distingue entre cinco causas, en este orden: fatiga, prerrequisitos, estrategia, falta de feedback o dificultad excesiva. Incluye reglas de descanso (6+1, techo diario, sueño) para evitar el agotamiento.
+For repeated failure it distinguishes five causes, in this order: fatigue, missing prerequisites, strategy, lack of feedback, or excessive difficulty. Rest rules (6+1, a daily ceiling, sleep) guard against burnout.
 
-### Qué toma de cada institución
+### What it takes from each institution
 
-| | Práctica | En Ágora |
+| | Practice | In Ágora |
 |---|---|---|
-| **Harvard** | Método de casos, instrucción entre pares | Caso semanal con decisión defendida; simulación de pares |
-| **MIT** | Aprender haciendo, problemas rigurosos | La mayor parte de cada sesión se resuelve |
-| **Cambridge** | Supervisiones en grupos muy pequeños | Producción semanal defendida ante el tutor |
-| **Stanford** | Diseño, prototipado e iteración | Semana de creatividad y proyecto de diseño |
+| **Harvard** | Case method, peer instruction | Weekly case with a defended decision; simulated peers |
+| **MIT** | Learning by doing, rigorous problem sets | Most of each session is spent solving |
+| **Cambridge** | Supervisions in very small groups | Weekly written work defended before the tutor |
+| **Stanford** | Design, prototyping and iteration | Creativity week and design project |
 
-Ninguna de estas universidades usa un único método; Ágora toma prácticas concretas, no "el método de X".
+None of these universities uses a single method; Ágora borrows concrete practices, not "the X method".
 
-## Tu cuaderno
+## Your notebook
 
-Si Claude tiene acceso a una carpeta, Ágora guarda tu progreso ahí. Si no, al cerrar cada sesión te da un bloque de estado para pegar en la siguiente. Puedes partir de [`cuaderno-plantilla/`](cuaderno-plantilla):
+With folder access, Ágora keeps your progress in files; without it, it gives you a state block to paste next time. Start from [`notebook-template/`](notebook-template):
 
-| Archivo | Para qué |
+| File | Purpose |
 |---|---|
-| `perfil.md` | Objetivo, nivel, diagnóstico y plan de 12 semanas |
-| `sesiones.csv` | Una fila por sesión con todas las métricas |
-| `errores.md` | Registro de errores por tipo (concepto, procedimiento, lectura, descuido, estrategia, prerrequisito) |
-| `repasos.csv` | Banco de preguntas con cajas de repaso espaciado |
-| `revisiones.md` | Revisiones semanales y mensuales |
+| `profile.md` | Goal, level, diagnostic and 12-week plan |
+| `sessions.csv` | One row per session with every metric |
+| `errors.md` | Error log by type (concept, procedure, misreading, slip, strategy, prerequisite) |
+| `cards.csv` | Review cards with FSRS state and source pages |
+| `reviews.md` | Weekly and monthly reviews |
+| `sources.md` | Your materials, glossary and held-out exams |
 
-[`scripts/metricas.py`](scripts/metricas.py) resume tus métricas y sugiere la regla adaptativa (solo usa la biblioteca estándar de Python):
+Two dependency-free scripts (Python 3.8+) ship inside the skill:
 
 ```bash
-python3 scripts/metricas.py ruta/a/sesiones.csv --dias 7
+python3 agora/scripts/fsrs.py due cards.csv              # what to review today
+python3 agora/scripts/fsrs.py review cards.csv c12 good  # log a review
+python3 agora/scripts/metrics.py sessions.csv --days 7   # weekly summary + suggested rule
 ```
 
-## Evidencia y límites
+`fsrs.py` ports FSRS-6 from [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs); on 1,924 simulated reviews it matched the reference library's due dates exactly.
 
-Cada práctica del skill indica si tiene **evidencia sólida**, **evidencia moderada** o si es una **sugerencia práctica**. Las referencias están en la sección 17 de [`SKILL.md`](agora/SKILL.md): Roediger & Karpicke (2006), Dunlosky et al. (2013), Cepeda et al. (2008), Freeman et al. (2014), Crouch & Mazur (2001), Kirschner, Sweller & Clark (2006), Bastani et al. (2025), entre otras.
+## Skill layout
 
-Ágora **no sustituye la ayuda profesional** para TDAH, ansiedad, depresión, trastornos del sueño u otras condiciones.
-
-## Estructura del repositorio
+The core `SKILL.md` is short (about 4.5k tokens). Detailed protocols live in `references/` and are read only when a mode needs them.
 
 ```text
 agora-skill/
 ├── agora/
-│   └── SKILL.md              ← el skill
-├── agora.zip                 ← listo para subir a la app de Claude
-├── cuaderno-plantilla/       ← cuaderno vacío para empezar
-├── ejemplos/
-│   └── sesion-de-30-min.md   ← cómo se ve una sesión
-├── scripts/
-│   └── metricas.py           ← resumen de métricas
-├── assets/banner.svg
+│   ├── SKILL.md                ← core: rules, language, router, session, adaptive rules
+│   ├── references/
+│   │   ├── diagnostic.md       ← 85-minute diagnostic, scoring, levels
+│   │   ├── curriculum.md       ← 12 weeks, time and level adaptations
+│   │   ├── tutor.md            ← Socratic protocol, supervision, copy-paste prompt
+│   │   ├── topic-cycle.md      ← universal topic template + 4 worked examples
+│   │   ├── evaluation.md       ← metrics, rubrics, reviews, blockage diagnosis
+│   │   ├── practices.md        ← skills matrix, 14 practices, error manual
+│   │   ├── projects.md         ← capstone projects
+│   │   ├── notebook.md         ← file formats, FSRS/Leitner, state block
+│   │   ├── sources.md          ← using your PDFs and notes
+│   │   └── evidence.md         ← references, ethics and health
+│   └── scripts/
+│       ├── fsrs.py
+│       └── metrics.py
+├── agora.zip                   ← ready to upload to the Claude app
+├── notebook-template/
+├── examples/                   ← sessions in English, Spanish and Portuguese
+├── README.md · README.es.md · README.pt-BR.md
 ├── CHANGELOG.md
 └── LICENSE
 ```
 
-## Contribuir
+## Evidence and limits
 
-¿Lo usaste y algo no funcionó, o se te ocurre una mejora? Abre un *issue* con lo que pasó, qué esperabas y, si puedes, un fragmento de la conversación.
+Every practice is labelled **solid evidence**, **moderate evidence** or **practical suggestion**. References are in [`agora/references/evidence.md`](agora/references/evidence.md): Roediger & Karpicke (2006), Dunlosky et al. (2013), Cepeda et al. (2008), Freeman et al. (2014), Crouch & Mazur (2001), Kirschner, Sweller & Clark (2006), Bastani et al. (2025), among others.
 
-## Licencia
+Ágora **does not replace professional help** for ADHD, anxiety, depression, sleep disorders or other conditions.
 
-[MIT](LICENSE) · Hecho por [@Mlle-LondonG](https://github.com/Mlle-LondonG).
+## Related work
+
+Other open learning skills worth knowing, each with different strengths: [learning-opportunities](https://github.com/DrCatHicks/learning-opportunities) (evidence-based exercises during AI-assisted coding), [learn-anything](https://github.com/ChenChenyaqi/learn-anything) (technical topics with a dashboard), [Bloom](https://github.com/li-evan/bloom) (course generation from your documents), [claude-tutor](https://github.com/kirilxd/claude-tutor) (plans, quizzes and a web dashboard) and [study-skill](https://github.com/mordor-forge/study-skill) (FSRS-6 for programming study). Spaced-repetition scheduling builds on the [open-spaced-repetition](https://github.com/open-spaced-repetition) project.
+
+## Contributing
+
+Used it and something didn't work, or have an idea? Open an issue with what happened, what you expected and, if you can, a snippet of the conversation. Translations of the README and new worked examples are especially welcome.
+
+## Licence
+
+[MIT](LICENSE) · Made by [@Mlle-LondonG](https://github.com/Mlle-LondonG).
