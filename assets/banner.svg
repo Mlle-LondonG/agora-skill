@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="t d">
   <title id="t">Ágora</title>
-  <desc id="d">Aprendizaje profundo y razonamiento aplicado. Skill para Claude.</desc>
+  <desc id="d">Deep understanding and applied reasoning. A Claude skill for any language.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#10121a"/>
@@ -16,7 +16,7 @@
     </linearGradient>
   </defs>
   <rect width="1280" height="420" rx="18" fill="url(#bg)"/>
-  <!-- Stoa: frontón, entablamento y columnas -->
+  <!-- Stoa: pediment, entablature and columns -->
   <g transform="translate(810 70)" fill="url(#fade)">
     <polygon points="0,62 210,0 420,62"/>
     <rect x="0" y="70" width="420" height="14"/>
@@ -33,9 +33,9 @@
     <rect x="-10" y="314" width="440" height="10"/>
     <rect x="-24" y="328" width="468" height="10"/>
   </g>
-  <text x="96" y="104" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#c9a45c">SKILL PARA CLAUDE</text>
+  <text x="96" y="104" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#c9a45c">A CLAUDE SKILL · ANY LANGUAGE</text>
   <text x="90" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="128" fill="#f4ecdb">Ágora</text>
   <rect x="96" y="262" width="120" height="4" rx="2" fill="url(#gold)"/>
-  <text x="96" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#e3d4b0">Aprendizaje profundo y razonamiento aplicado</text>
-  <text x="96" y="356" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#8e98ad">definir → recuperar → estudiar → resolver → explicar → corregir → espaciar</text>
+  <text x="96" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#e3d4b0">Deep understanding and applied reasoning</text>
+  <text x="96" y="356" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#8e98ad">define → retrieve → study → solve → explain → correct → space</text>
 </svg>
