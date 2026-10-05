@@ -30,6 +30,7 @@ A Ágora é esse alguém. Ela pega as práticas mais transferíveis das universi
 | **Plano de 12 semanas** | Cada semana treina uma habilidade cognitiva usando o conteúdo da *sua* matéria. |
 | **Sessão diária** | Rotinas exatas de 30, 60, 120 ou 180 minutos em 7 passos. |
 | **Tutoria socrática** | Não entrega a resposta: pede a sua tentativa, questiona suposições, traz contraexemplos e aumenta a dificuldade, com uma escada de dicas de H1 a H5. |
+| **Modo atenção** | Formato opcional pensado para o TDAH: blocos de 10 a 20 minutos com uma única tarefa visível, pausas com movimento, ritual de início, no máximo 8 cartões por dia, retornos em vez de sequências e um freio para o hiperfoco. |
 | **Seu material** | Lê seus PDFs, anotações e ementa, conecta tudo ao plano e cria cartões e problemas que citam as páginas. Provas antigas ficam reservadas para o teste final. |
 | **Revisão espaçada** | Agendamento com FSRS-6 por um script sem dependências (sem Python, usa caixas de Leitner). |
 | **Revisões** | Métricas semanais e mensais, com regras explícitas para subir ou baixar a dificuldade. |
@@ -43,6 +44,10 @@ Serve para estudantes do ensino médio avançado, universitários, profissionais
 A skill está escrita em inglês e **fala com cada pessoa no idioma dela** (português, espanhol, italiano, francês, alemão, inglês…): perguntas, feedback, rubricas, modelos e o prompt do tutor. Os nomes de arquivo continuam em inglês para que os scripts funcionem.
 
 Quando a matéria *é* um idioma, as instruções chegam no seu idioma e a prática acontece no idioma-alvo, com mais imersão conforme o nível sobe (cerca de 30 % → 60 % → 90 %). Veja [uma sessão de exemplo aprendendo inglês](examples/session-30-min.pt-BR.md).
+
+## Modo atenção (pensado para o TDAH)
+
+É opcional e nunca faz diagnóstico. Mantém os métodos que também funcionam com TDAH (a prática de lembrança ajuda tanto quanto aos colegas) e muda o formato: blocos curtos com uma única tarefa visível, pausas com movimento, planos "se… então…" para as distrações, uma lista de pendências, uma microssessão de 10 minutos para dias de pouca energia, revisões limitadas, retornos em vez de sequências e avisos de tempo para que o hiperfoco não roube horas de sono. Não dá conselhos sobre medicação nem oferece "treino cerebral", que não melhora os sintomas nem as notas em avaliações cegas. Veja [`agora/references/attention.md`](agora/references/attention.md).
 
 ## Instalação
 

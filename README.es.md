@@ -30,6 +30,7 @@ Releer, subrayar y acumular horas *se siente* productivo, pero rinde poco. Las t
 | **Plan de 12 semanas** | Cada semana entrena una habilidad cognitiva usando el temario de *tu* materia. |
 | **Sesión diaria** | Rutinas exactas de 30, 60, 120 o 180 minutos en 7 pasos. |
 | **Tutoría socrática** | No te da la respuesta: pide tu intento, cuestiona supuestos, plantea contraejemplos y sube la dificultad, con una escalera de pistas de H1 a H5. |
+| **Modo atención** | Formato opcional pensado para el TDAH: bloques de 10 a 20 minutos con una sola tarea visible, pausas con movimiento, ritual de arranque, máximo 8 tarjetas al día, regresos en lugar de rachas y un freno a la hiperconcentración. |
 | **Tu material** | Lee tus PDF, apuntes y temario, los conecta con el plan y crea tarjetas y problemas que citan páginas. Los exámenes anteriores se reservan para la prueba final. |
 | **Repaso espaciado** | Programación con FSRS-6 mediante un script sin dependencias (si no hay Python, usa cajas Leitner). |
 | **Revisiones** | Métricas semanales y mensuales con reglas explícitas para subir o bajar la dificultad. |
@@ -43,6 +44,10 @@ Funciona para estudiantes de secundaria avanzada, universitarios, profesionales 
 El skill está escrito en inglés y **le habla a cada persona en su idioma** (español, portugués, italiano, francés, alemán, inglés…): preguntas, feedback, rúbricas, plantillas y el prompt del tutor. Los nombres de archivo se mantienen en inglés para que los scripts sigan funcionando.
 
 Si la materia *es* un idioma, las instrucciones llegan en tu idioma y la práctica ocurre en el idioma meta, con más inmersión a medida que sube tu nivel (alrededor de 30 % → 60 % → 90 %).
+
+## Modo atención (pensado para el TDAH)
+
+Es opcional y nunca diagnostica. Mantiene los métodos que también funcionan con TDAH (la práctica de recuperación ayuda igual que al resto) y cambia el formato: bloques cortos con una sola tarea visible, pausas con movimiento, planes "si… entonces…" para las distracciones, una lista de pendientes, una microsesión de 10 minutos para días de poca energía, repasos limitados, regresos en lugar de rachas y avisos de tiempo para que la hiperconcentración no le quite horas al sueño. No da consejos sobre medicación ni ofrece "entrenamiento cerebral", que no mejora los síntomas ni las notas en mediciones ciegas. Mira [`agora/references/attention.md`](agora/references/attention.md) y [una sesión de ejemplo](examples/session-attention-mode.es.md).
 
 ## Instalación
 

@@ -7,7 +7,7 @@
   <img alt="Claude skill" src="https://img.shields.io/badge/skill-Claude-1c2131?style=flat-square">
   <img alt="Works in any language" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20ES%20%C2%B7%20PT%20%C2%B7%20IT%20%C2%B7%20FR%20%C2%B7%20DE%20%C2%B7%20%E2%80%A6-8e98ad?style=flat-square">
   <img alt="Spaced repetition: FSRS" src="https://img.shields.io/badge/spaced%20repetition-FSRS--6-e3d4b0?style=flat-square">
-  <img alt="Version 2.0.0" src="https://img.shields.io/badge/version-2.0.0-c9a45c?style=flat-square">
+  <img alt="Version 2.1.0" src="https://img.shields.io/badge/version-2.1.0-c9a45c?style=flat-square">
 </p>
 
 <p align="center">
@@ -44,6 +44,7 @@ Rereading, highlighting and logging hours *feel* productive but pay off little. 
 | **12-week plan** | Each week trains one cognitive skill using *your* subject's syllabus. |
 | **Daily session** | Exact 30, 60, 120 or 180-minute routines in 7 steps. |
 | **Socratic tutoring** | Never hands you the answer: asks for your attempt, probes assumptions, raises counterexamples and difficulty, with a hint ladder from H1 to H5. |
+| **Attention mode** | Optional ADHD-friendly packaging: 10–20-minute blocks with one visible task, movement breaks, a start ritual, at most 8 cards a day, comebacks instead of streaks, and a hyperfocus guard. |
 | **Your materials** | Reads your PDFs, notes and syllabus, maps them to the plan, and writes cards and problems that cite pages. Past exams are held out for the final test. |
 | **Spaced repetition** | FSRS-6 scheduling with a dependency-free script (falls back to Leitner boxes when Python isn't available). |
 | **Reviews** | Weekly and monthly metrics, with explicit rules for raising or lowering difficulty. |
@@ -64,6 +65,10 @@ When the subject *is* a language, instructions come in your language and practic
 Ágora, sessão de 60 minutos
 Ágora, sessione di 60 minuti
 ```
+
+## Attention mode (ADHD-friendly)
+
+Opt-in, never a diagnosis. It keeps the methods that work for students with ADHD too (retrieval practice helps them as much as their peers) and changes the packaging: short blocks with a single visible task, movement breaks, if-then plans for distractions, a "parking list", a 10-minute micro-session for low-energy days, capped reviews, comebacks instead of streaks, and time checks so hyperfocus doesn't eat into sleep. No medication advice and no "brain training", which doesn't improve ADHD symptoms or grades on blinded measures. See [`agora/references/attention.md`](agora/references/attention.md) and [an example session](examples/session-attention-mode.md).
 
 ## Install
 
@@ -176,7 +181,7 @@ python3 agora/scripts/metrics.py sessions.csv --days 7   # weekly summary + sugg
 
 ## Skill layout
 
-The core `SKILL.md` is short (about 4.5k tokens). Detailed protocols live in `references/` and are read only when a mode needs them.
+The core `SKILL.md` is short (about 5k tokens). Detailed protocols live in `references/` and are read only when a mode needs them.
 
 ```text
 agora-skill/
@@ -192,13 +197,14 @@ agora-skill/
 │   │   ├── projects.md         ← capstone projects
 │   │   ├── notebook.md         ← file formats, FSRS/Leitner, state block
 │   │   ├── sources.md          ← using your PDFs and notes
+│   │   ├── attention.md        ← attention mode (ADHD-friendly)
 │   │   └── evidence.md         ← references, ethics and health
 │   └── scripts/
 │       ├── fsrs.py
 │       └── metrics.py
 ├── agora.zip                   ← ready to upload to the Claude app
 ├── notebook-template/
-├── examples/                   ← sessions in English, Spanish and Portuguese
+├── examples/                   ← sessions in English, Spanish and Portuguese, plus attention mode
 ├── README.md · README.es.md · README.pt-BR.md
 ├── CHANGELOG.md
 └── LICENSE
@@ -212,7 +218,7 @@ Every practice is labelled **solid evidence**, **moderate evidence** or **practi
 
 ## Related work
 
-Other open learning skills worth knowing, each with different strengths: [learning-opportunities](https://github.com/DrCatHicks/learning-opportunities) (evidence-based exercises during AI-assisted coding), [learn-anything](https://github.com/ChenChenyaqi/learn-anything) (technical topics with a dashboard), [Bloom](https://github.com/li-evan/bloom) (course generation from your documents), [claude-tutor](https://github.com/kirilxd/claude-tutor) (plans, quizzes and a web dashboard) and [study-skill](https://github.com/mordor-forge/study-skill) (FSRS-6 for programming study). Spaced-repetition scheduling builds on the [open-spaced-repetition](https://github.com/open-spaced-repetition) project.
+Other open learning skills worth knowing, each with different strengths: [learning-opportunities](https://github.com/DrCatHicks/learning-opportunities) (evidence-based exercises during AI-assisted coding), [learn-anything](https://github.com/ChenChenyaqi/learn-anything) (technical topics with a dashboard), [Bloom](https://github.com/li-evan/bloom) (course generation from your documents), [claude-tutor](https://github.com/kirilxd/claude-tutor) (plans, quizzes and a web dashboard) [study-skill](https://github.com/mordor-forge/study-skill) (FSRS-6 for programming study) and [education-agent-skills](https://github.com/GarethManning/education-agent-skills) (a large, evidence-rated library of teaching and tutoring skills). Hosted study modes (ChatGPT Study Mode, Gemini Guided Learning, Claude's learning mode, NotebookLM) offer things a skill can't, such as built-in dashboards, visuals or voice. Spaced-repetition scheduling builds on the [open-spaced-repetition](https://github.com/open-spaced-repetition) project.
 
 ## Contributing
 

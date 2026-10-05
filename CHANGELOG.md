@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.1.0 — 2026-10-04
+
+**Attention mode (ADHD-friendly).**
+
+- New `references/attention.md`: an opt-in mode that never diagnoses and gives no medication advice. 10–20-minute blocks with one visible task, movement breaks, a 2-minute start ritual with if-then plans, a parking list, a 10-minute micro-session, energy gating, at most 8 review cards a day, comebacks instead of streaks, time checks and a hyperfocus guard.
+- Evidence added: retrieval practice in students with ADHD (Knouse et al., 2016; Minear et al., 2023), implementation intentions (Gawrilow & Gollwitzer, 2008), cognitive-behavioural programmes (Cochrane 2018; ACCESS), physical activity (Yang et al., 2025), cognitive training (Cortese et al., 2015), hyperfocus (Ashinoff & Abu-Akel, 2021).
+- `metrics.py` now reports comebacks after 2+ days off.
+- Diagnostic: the attention block is explicitly not an ADHD screen.
+- Hyperfocus guard added to the rest rules for everyone.
+- Example sessions in attention mode (English and Spanish).
+
 ## 2.0.0 — 2026-10-04
 
 **Multilingual, lighter, and with real spaced repetition.**
