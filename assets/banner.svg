@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="t d">
+  <title id="t">Ágora</title>
+  <desc id="d">Aprendizaje profundo y razonamiento aplicado. Skill para Claude.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10121a"/>
+      <stop offset="1" stop-color="#1c2131"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2c27d"/>
+      <stop offset="1" stop-color="#b48a3e"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a45c" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#c9a45c" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="420" rx="18" fill="url(#bg)"/>
+  <!-- Stoa: frontón, entablamento y columnas -->
+  <g transform="translate(810 70)" fill="url(#fade)">
+    <polygon points="0,62 210,0 420,62"/>
+    <rect x="0" y="70" width="420" height="14"/>
+    <rect x="0" y="90" width="420" height="5"/>
+    <g>
+      <rect x="18.0" y="104" width="26" height="206" rx="3"/>
+      <rect x="77.7" y="104" width="26" height="206" rx="3"/>
+      <rect x="137.3" y="104" width="26" height="206" rx="3"/>
+      <rect x="197.0" y="104" width="26" height="206" rx="3"/>
+      <rect x="256.7" y="104" width="26" height="206" rx="3"/>
+      <rect x="316.3" y="104" width="26" height="206" rx="3"/>
+      <rect x="376.0" y="104" width="26" height="206" rx="3"/>
+    </g>
+    <rect x="-10" y="314" width="440" height="10"/>
+    <rect x="-24" y="328" width="468" height="10"/>
+  </g>
+  <text x="96" y="104" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#c9a45c">SKILL PARA CLAUDE</text>
+  <text x="90" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="128" fill="#f4ecdb">Ágora</text>
+  <rect x="96" y="262" width="120" height="4" rx="2" fill="url(#gold)"/>
+  <text x="96" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#e3d4b0">Aprendizaje profundo y razonamiento aplicado</text>
+  <text x="96" y="356" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#8e98ad">definir → recuperar → estudiar → resolver → explicar → corregir → espaciar</text>
+</svg>
