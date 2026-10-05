@@ -7,7 +7,7 @@
   <img alt="Claude skill" src="https://img.shields.io/badge/skill-Claude-1c2131?style=flat-square">
   <img alt="Works in any language" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20ES%20%C2%B7%20PT%20%C2%B7%20IT%20%C2%B7%20FR%20%C2%B7%20DE%20%C2%B7%20%E2%80%A6-8e98ad?style=flat-square">
   <img alt="Spaced repetition: FSRS" src="https://img.shields.io/badge/spaced%20repetition-FSRS--6-e3d4b0?style=flat-square">
-  <img alt="Version 2.2.0" src="https://img.shields.io/badge/version-2.2.0-c9a45c?style=flat-square">
+  <img alt="Version 2.2.1" src="https://img.shields.io/badge/version-2.2.1-c9a45c?style=flat-square">
 </p>
 
 <p align="center">

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.2.1 — 2026-10-05
+
+**Now in Claude's plugin directory, and in five languages.**
+
+- Ágora Learning is listed in Anthropic's plugin directory: open **Customize** in Claude and search for it. All READMEs now show this as the easiest way to install.
+- README in Italian and French, contributed by [@sivaadithya25](https://github.com/sivaadithya25). Thank you!
+- Privacy policy (`PRIVACY.md`), linked from every README.
+- The skill itself is unchanged from 2.1.0.
+
 ## 2.2.0 — 2026-10-05
 
 **Ready for Claude's plugin directory.**
