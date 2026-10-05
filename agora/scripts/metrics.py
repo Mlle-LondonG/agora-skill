@@ -61,6 +61,10 @@ def main():
           f"Questions {mean_of(S, 'questions')}/4")
     print(f"Mean sleep {mean_of(S, 'sleep_h')} h · Mean energy {mean_of(S, 'energy')}/5")
 
+    dates = sorted({dt.date.fromisoformat(r["date"]) for r in rows if r.get("date")})
+    comebacks = sum(1 for prev, cur in zip(dates, dates[1:]) if cur > since and (cur - prev).days >= 3)
+    print(f"Comebacks after 2+ days off: {comebacks} · days with a session: {sum(d > since for d in dates)}")
+
     if tot:
         r = ok / tot
         if r < 0.60:
