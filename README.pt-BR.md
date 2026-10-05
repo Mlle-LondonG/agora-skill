@@ -51,9 +51,22 @@ Quando a matéria *é* um idioma, as instruções chegam no seu idioma e a prát
 
 ## Instalação
 
+**Um comando (qualquer agente compatível com skills).**
+
+```bash
+npx skills add Mlle-LondonG/agora-skill
+```
+
+**Plugin do Claude Code.** Dentro de uma sessão:
+
+```text
+/plugin marketplace add Mlle-LondonG/agora-skill
+/plugin install agora@agora-skill
+```
+
 **App do Claude (web ou desktop).** Baixe o [`agora.zip`](agora.zip) (ou o anexado à [versão mais recente](../../releases/latest)) e envie na seção de Skills das configurações.
 
-**Claude Code.** Copie a pasta `agora/` para as suas skills pessoais ou para as de um projeto:
+**Claude Code, manualmente.** Copie a pasta `agora/` para as suas skills pessoais ou para as de um projeto:
 
 ```bash
 git clone https://github.com/Mlle-LondonG/agora-skill.git

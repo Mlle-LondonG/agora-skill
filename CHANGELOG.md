@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.1.1 — 2026-10-04
+
+**One-command install.**
+
+- The repository is now a Claude Code plugin and marketplace (`.claude-plugin/`): `/plugin marketplace add Mlle-LondonG/agora-skill`, then `/plugin install agora@agora-skill`. Validated with `claude plugin validate --strict`.
+- Documented `npx skills add Mlle-LondonG/agora-skill` for any agent that supports skills.
+- Social preview image (`assets/social-preview.png`).
+- The skill itself is unchanged from 2.1.0.
+
 ## 2.1.0 — 2026-10-04
 
 **Attention mode (ADHD-friendly).**

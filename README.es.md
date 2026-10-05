@@ -51,9 +51,22 @@ Es opcional y nunca diagnostica. Mantiene los métodos que también funcionan co
 
 ## Instalación
 
+**Un comando (cualquier agente compatible con skills).**
+
+```bash
+npx skills add Mlle-LondonG/agora-skill
+```
+
+**Plugin de Claude Code.** Dentro de una sesión:
+
+```text
+/plugin marketplace add Mlle-LondonG/agora-skill
+/plugin install agora@agora-skill
+```
+
 **App de Claude (web o escritorio).** Descarga [`agora.zip`](agora.zip) (o el adjunto a la [última versión](../../releases/latest)) y súbelo en la sección de Skills de la configuración.
 
-**Claude Code.** Copia la carpeta `agora/` en tus skills personales o en las de un proyecto:
+**Claude Code, a mano.** Copia la carpeta `agora/` en tus skills personales o en las de un proyecto:
 
 ```bash
 git clone https://github.com/Mlle-LondonG/agora-skill.git

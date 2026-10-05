@@ -7,7 +7,7 @@
   <img alt="Claude skill" src="https://img.shields.io/badge/skill-Claude-1c2131?style=flat-square">
   <img alt="Works in any language" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20ES%20%C2%B7%20PT%20%C2%B7%20IT%20%C2%B7%20FR%20%C2%B7%20DE%20%C2%B7%20%E2%80%A6-8e98ad?style=flat-square">
   <img alt="Spaced repetition: FSRS" src="https://img.shields.io/badge/spaced%20repetition-FSRS--6-e3d4b0?style=flat-square">
-  <img alt="Version 2.1.0" src="https://img.shields.io/badge/version-2.1.0-c9a45c?style=flat-square">
+  <img alt="Version 2.1.1" src="https://img.shields.io/badge/version-2.1.1-c9a45c?style=flat-square">
 </p>
 
 <p align="center">
@@ -72,9 +72,22 @@ Opt-in, never a diagnosis. It keeps the methods that work for students with ADHD
 
 ## Install
 
+**One command (any agent that supports skills).**
+
+```bash
+npx skills add Mlle-LondonG/agora-skill
+```
+
+**Claude Code plugin.** Inside a session:
+
+```text
+/plugin marketplace add Mlle-LondonG/agora-skill
+/plugin install agora@agora-skill
+```
+
 **Claude app (web or desktop).** Download [`agora.zip`](agora.zip) (or the one attached to the [latest release](../../releases/latest)) and upload it in the Skills section of your settings.
 
-**Claude Code.** Copy the `agora/` folder into your personal skills or a project's:
+**Claude Code, manually.** Copy the `agora/` folder into your personal skills or a project's:
 
 ```bash
 git clone https://github.com/Mlle-LondonG/agora-skill.git
@@ -181,10 +194,11 @@ python3 agora/scripts/metrics.py sessions.csv --days 7   # weekly summary + sugg
 
 ## Skill layout
 
-The core `SKILL.md` is short (about 5k tokens). Detailed protocols live in `references/` and are read only when a mode needs them.
+The core `SKILL.md` is short: as a Claude Code plugin it adds about 155 tokens to every session and about 7k when invoked. Detailed protocols live in `references/` and are read only when a mode needs them.
 
 ```text
 agora-skill/
+├── .claude-plugin/              ← plugin + marketplace manifests for Claude Code
 ├── agora/
 │   ├── SKILL.md                ← core: rules, language, router, session, adaptive rules
 │   ├── references/
