@@ -1,6 +1,6 @@
 ---
 name: agora
-description: Learning system for deep understanding and applied reasoning, with a diagnostic, a 12-week plan, daily sessions, a Socratic tutor, metrics and spaced repetition kept in a notebook. Use when someone says Ágora/Agora or wants to study or learn something seriously and measurably, in any language (aprender, estudiar, estudar, imparare, apprendre, lernen).
+description: Learning system for deep understanding and applied reasoning, with a diagnostic, a 12-week plan, daily sessions, a Socratic tutor, metrics and spaced repetition kept in a notebook. Use when someone says Ágora/Agora or wants to study or learn something seriously and measurably, in any language (aprender, estudiar, estudar, imparare, apprendre, lernen), including with ADHD or attention difficulties.
 ---
 
 # Ágora — a learning operating system for deep understanding and applied reasoning
@@ -52,6 +52,7 @@ At invocation, load the notebook first (§5), then pick the mode. Read the liste
 | "Project", or week 11 | Capstone project | `references/projects.md` |
 | "I'm stuck", "I keep failing", repeated errors | Blockage diagnosis | `references/evaluation.md` |
 | Learner shares PDFs, notes, slides, a syllabus | Source intake | `references/sources.md` |
+| ADHD, attention difficulties, "I can't focus", "attention mode" | Attention mode (opt-in) | `references/attention.md` |
 | "Plan", building or adjusting the 12 weeks | Curriculum | `references/curriculum.md` |
 | "Why does this work?", technique questions, mistakes in method | Practices and error manual | `references/practices.md` |
 | "Manual", "the whole system in writing" | Manual | all references; open with §0, close with §10 |
@@ -66,7 +67,7 @@ Ask, in one message or with a selector if available:
 2. **Anchor subject** and available material (course, book, notes, syllabus). If they have files, run source intake (`references/sources.md`).
 3. **Profile:** advanced secondary student, university student, professional, or self-taught.
 4. **Real time:** 30, 60, 120 or 180 minutes a day, days per week, deadlines.
-5. **Energy and sleep** (optional): usual sleep hours and best time of day. Do not diagnose anything.
+5. **Energy, sleep and attention** (optional): usual sleep hours, best time of day, and whether they'd like the attention-friendly mode (useful with ADHD or attention difficulties; `references/attention.md`). Do not diagnose anything.
 6. **Who can you discuss with?** Classmates, a teacher, a community, or only AI.
 
 Then create the notebook (§5), write `profile.md`, and offer the diagnostic. Once a level is assigned, personalise the plan with `references/curriculum.md`: spread the anchor subject's syllabus over about 10 blocks (W1–W10) and keep W11–W12 for the project and defence. If an exam comes before week 12, compress: keep the order of competencies and merge weeks in pairs.
@@ -86,7 +87,7 @@ Then create the notebook (§5), write `profile.md`, and offer the diagnostic. On
 
 **Spaced repetition.** If Python is available, schedule cards with FSRS: `python3 <skill folder>/scripts/fsrs.py due|review|stats <notebook>/cards.csv`. Map grades to ratings: wrong → `again`, partial → `hard`, correct → `good`, correct + fast + confident → `easy`. Without Python, use the Leitner fallback in `references/notebook.md`. Record which scheduler is active in `profile.md`.
 
-**Read at start:** `profile.md`, the last 10 rows of `sessions.csv`, due cards (max 15, lowest recall first), open errors from the last 14 days, the latest review.
+**Read at start:** `profile.md`, the last 10 rows of `sessions.csv`, due cards (max 15, or 8 in attention mode; lowest recall first), open errors from the last 14 days, the latest review.
 **Write at close:** the session row, new errors, 3–5 new cards, card updates. Update `profile.md` if the rule or week changes. **Never delete history**; only append or update status. Metrics: `python3 <skill folder>/scripts/metrics.py <notebook>/sessions.csv` when Python is available.
 
 ## 6. Daily session
@@ -105,7 +106,7 @@ Then create the notebook (§5), write `profile.md`, and offer the diagnostic. On
 | 7. Log errors and schedule reviews | 2 | 3 | 7 | 10 |
 | **Total** | **30** | **60** | **120** | **180** |
 
-The 180-minute session may be split into two sittings at the 10-minute break.
+The 180-minute session may be split into two sittings at the 10-minute break. **In attention mode**, use the block formats, start ritual and micro-session in `references/attention.md` instead.
 
 ### 6.2 How Claude runs each step
 0. **Opening (untimed):** ask hours slept and energy (1–5); apply §8.3 if needed. Show the agenda and ask the learner to start a timer.
@@ -170,13 +171,14 @@ Triggered by the same error type ≥ 3 times in 7 days, 2 sessions in a row belo
 - **6+1 rule:** one full day off per week.
 - **Daily ceiling:** 180 min of deep study in Ágora; 120 for secondary students. [P]
 - **Sleep:** one night under 6 h → 30-minute review-only session. Two nights in a row → day off. [E on sleep and memory consolidation; the 6-hour threshold is a practical convention]
+- **Hyperfocus guard:** after 45 minutes of continuous work, suggest a break; never run more than 15 minutes past the planned end.
 - **No compensation:** after a missed session, the next one is normal, not double. After two missed in a row, restart with the 30-minute version.
 - **Deload week:** if for ≥ 3 days 2+ signals appear (energy ≤ 2, sleep < 6 h, irritability or anxiety tied to study, recall drop > 15 points without a change in difficulty, avoiding or dreading sessions), cut volume by 40 % for 5–7 days: review and light project work only. If the signals persist, see §9.
 
 ## 9. Health and ethics (summary; full text in `references/evidence.md`)
 
 - Ágora **does not measure, diagnose or raise IQ** in any guaranteed way. The diagnostic is not a validated psychometric test; it compares the learner with themselves.
-- It **does not replace professional help** for ADHD, anxiety, depression, sleep disorders, learning difficulties or other conditions. If the learner mentions one, adjust the load, do not diagnose, and suggest seeing a professional.
+- It **does not replace professional help** for ADHD, anxiety, depression, sleep disorders, learning difficulties or other conditions. If the learner mentions one, adjust the load, do not diagnose, and suggest seeing a professional. For ADHD or attention difficulties, offer attention mode (`references/attention.md`); never advise on medication.
 - **Stop immediately** if intense hopelessness, panic or thoughts of self-harm appear: pause the session, attend to the person, and offer help finding support.
 - Sustainable performance needs sleep, movement, enough food, breaks and reasonable limits. Ágora never recommends stimulants or "nootropics" without a prescription.
 - The aim is skills and results, not obsessive study. If study displaces sleep, relationships or health, reduce the load.
