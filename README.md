@@ -72,6 +72,8 @@ Opt-in, never a diagnosis. It keeps the methods that work for students with ADHD
 
 ## Install
 
+**From Claude's directory (easiest).** Ágora Learning is listed in Anthropic's plugin directory. In Claude (web, desktop, Cowork or Claude Code), open **Customize**, search for **Ágora Learning** and add it.
+
 **One command (any agent that supports skills).**
 
 ```bash

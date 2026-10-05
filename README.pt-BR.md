@@ -51,6 +51,8 @@ Quando a matéria *é* um idioma, as instruções chegam no seu idioma e a prát
 
 ## Instalação
 
+**Pelo diretório do Claude (o mais fácil).** A Ágora Learning está no diretório oficial de plugins da Anthropic. No Claude (web, desktop, Cowork ou Claude Code), abra **Customize**, procure **Ágora Learning** e adicione.
+
 **Um comando (qualquer agente compatível com skills).**
 
 ```bash

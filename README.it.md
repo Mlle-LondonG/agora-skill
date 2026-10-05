@@ -72,6 +72,8 @@ Attivabile a scelta, non è una diagnosi. Mantiene i metodi efficaci anche per g
 
 ## Installa
 
+**Dalla directory di Claude (il modo più semplice).** Ágora Learning è nella directory ufficiale dei plugin di Anthropic. In Claude (web, desktop, Cowork o Claude Code), apri **Customize**, cerca **Ágora Learning** e aggiungilo.
+
 **Un comando (qualsiasi agente che supporti le skill).**
 
 ```bash
