@@ -16,9 +16,9 @@
 </p>
 
 <p align="center">
-  <a href="#install">Installation</a> ·
-  <a href="#getting-started">Pour commencer</a> ·
-  <a href="#the-method">La méthode</a> ·
+  <a href="#installation">Installation</a> ·
+  <a href="#pour-commencer">Pour commencer</a> ·
+  <a href="#la-méthode">La méthode</a> ·
   <a href="examples/session-30-min.md">Voir une séance</a> ·
   <a href="agora/SKILL.md">Lire le skill</a>
   <br>
@@ -71,6 +71,8 @@ Lorsque la matière _est_ une langue, les consignes sont données dans votre lan
 Activable à la demande, il ne constitue jamais un diagnostic. Il conserve les méthodes qui fonctionnent aussi pour les étudiants avec un TDAH (la pratique de récupération les aide autant que leurs pairs) et en modifie la présentation : blocs courts avec une seule tâche visible, pauses de mouvement, plans « si-alors » pour les distractions, une « liste de stationnement », une micro-séance de 10 minutes pour les jours de faible énergie, des révisions plafonnées, des reprises plutôt que des séries et des vérifications de l’heure afin que l’hyperconcentration ne rogne pas sur le sommeil. Aucun conseil médicamenteux ni « entraînement cérébral », qui n’améliore ni les symptômes du TDAH ni les notes dans les mesures en aveugle. Voir [`agora/references/attention.md`](agora/references/attention.md) et [un exemple de séance](examples/session-attention-mode.md).
 
 ## Installation
+
+**Depuis l’annuaire de Claude (le plus simple).** Ágora Learning figure dans l’annuaire officiel des plugins d’Anthropic. Dans Claude (web, bureau, Cowork ou Claude Code), ouvrez **Customize**, cherchez **Ágora Learning** et ajoutez-le.
 
 **Une commande (avec tout agent prenant en charge les skills).**
 
