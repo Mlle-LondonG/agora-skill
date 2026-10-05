@@ -237,6 +237,10 @@ Other open learning skills worth knowing, each with different strengths: [learni
 
 Used it and something didn't work, or have an idea? Open an issue with what happened, what you expected and, if you can, a snippet of the conversation. Translations of the README and new worked examples are especially welcome.
 
+## Privacy
+
+Ágora has no server and sends nothing anywhere: your notebook stays in your own folder. See [Privacy](PRIVACY.md).
+
 ## Licence
 
 [MIT](LICENSE) · Made by [@Mlle-LondonG](https://github.com/Mlle-LondonG).

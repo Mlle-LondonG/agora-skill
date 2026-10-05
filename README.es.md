@@ -161,6 +161,10 @@ Cada práctica está etiquetada como **evidencia sólida**, **evidencia moderada
 
 ¿Lo usaste y algo no funcionó, o se te ocurre una mejora? Abre un *issue* con lo que pasó, qué esperabas y, si puedes, un fragmento de la conversación.
 
+## Privacidad
+
+Ágora no tiene servidor y no envía nada a ningún sitio: tu cuaderno se queda en tu carpeta. Mira [Privacy](PRIVACY.md).
+
 ## Licencia
 
 [MIT](LICENSE) · Hecho por [@Mlle-LondonG](https://github.com/Mlle-LondonG).

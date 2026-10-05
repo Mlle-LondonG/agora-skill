@@ -157,6 +157,10 @@ A Ágora **não substitui ajuda profissional** para TDAH, ansiedade, depressão,
 
 Usou e algo não funcionou, ou tem uma ideia? Abra uma *issue* contando o que aconteceu, o que você esperava e, se puder, um trecho da conversa.
 
+## Privacidade
+
+A Ágora não tem servidor e não envia nada a lugar nenhum: seu caderno fica na sua pasta. Veja [Privacy](PRIVACY.md).
+
 ## Licença
 
 [MIT](LICENSE) · Feito por [@Mlle-LondonG](https://github.com/Mlle-LondonG).
