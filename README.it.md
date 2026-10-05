@@ -22,7 +22,7 @@
   <a href="examples/session-30-min.md">Vedi una sessione</a> ·
   <a href="agora/SKILL.md">Leggi la skill</a>
   <br>
-  <b>Italiano</b> · <a href="README.md">English</a> · <a href="README.es.md">Español</a> · <a href="README.pt-BR.md">Português</a>
+  <b>Italiano</b> · <a href="README.md">English</a> · <a href="README.es.md">Español</a> · <a href="README.pt-BR.md">Português</a> · <a href="README.fr.md">Français</a>
 </p>
 
 ---
