@@ -1,0 +1,15 @@
+{
+  "name": "agora-skill",
+  "description": "Ágora: a learning system for Claude, in any language.",
+  "owner": {
+    "name": "Mlle-LondonG",
+    "url": "https://github.com/Mlle-LondonG"
+  },
+  "plugins": [
+    {
+      "name": "agora",
+      "source": "./",
+      "description": "Diagnostic, 12-week plan, daily sessions, Socratic tutor, metrics, FSRS spaced repetition and an ADHD-friendly attention mode, in any language."
+    }
+  ]
+}

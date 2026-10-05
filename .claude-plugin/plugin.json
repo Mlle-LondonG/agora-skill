@@ -1,0 +1,15 @@
+{
+  "name": "agora",
+  "displayName": "Ágora",
+  "version": "2.1.1",
+  "description": "Learning system for deep understanding and applied reasoning, in any language: diagnostic, 12-week plan, daily sessions, Socratic tutor, metrics, FSRS spaced repetition and an ADHD-friendly attention mode.",
+  "author": {
+    "name": "Mlle-LondonG",
+    "url": "https://github.com/Mlle-LondonG"
+  },
+  "homepage": "https://github.com/Mlle-LondonG/agora-skill",
+  "repository": "https://github.com/Mlle-LondonG/agora-skill",
+  "license": "MIT",
+  "keywords": ["learning", "study", "tutoring", "socratic-method", "spaced-repetition", "fsrs", "metacognition", "adhd", "multilingual", "education"],
+  "skills": ["./agora/"]
+}
